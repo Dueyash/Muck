@@ -95,8 +95,11 @@ export default function Documents() {
       {/* Header */}
       <div className="border-b border-border bg-card">
         <div className="container mx-auto p-6">
-          <h1 className="text-3xl font-bold mb-2">Documents</h1>
-          <p className="text-muted-foreground">
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-2 bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-300 bg-clip-text text-transparent">
+            Documents
+          </h1>
+          <div className="w-28 h-1 mx-auto md:mx-0 rounded-full bg-gradient-to-r from-indigo-500 to-emerald-400 my-2" />
+          <p className="text-slate-400 text-lg md:text-base max-w-2xl">
             Create and manage your collaborative documents
           </p>
         </div>
