@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import * as Y from "yjs";
 import { useParams } from "wouter";
 import { useCollaborativeEditor } from "@/hooks/useCollaborativeEditor";
 import { trpc } from "@/lib/trpc";

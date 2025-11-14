@@ -1,4 +1,3 @@
-// Add this at the top of server/_core/index.ts
 import "./env";
 import dotenv from "dotenv";
 dotenv.config({ path: ".env.local" });
